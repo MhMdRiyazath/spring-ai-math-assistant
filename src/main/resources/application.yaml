@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo
+  ai:
+    openai:
+      api-key: <your-open-ai-api-key>
+      chat:
+        options:
+          model: gpt-4.1-mini
+
+server:
+  servlet:
+    context-path: /
+  error:
+    include-message: always
